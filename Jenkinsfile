@@ -14,5 +14,10 @@ pipeline {
                 echo 'Hello Pipeline' 
             }
         }
+        stage('Build') {
+            steps {
+               }
+    }
+
     }
 }
